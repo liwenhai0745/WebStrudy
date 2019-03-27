@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif, 微软雅黑;
+    color: #6C6C6C;
+
+}
+
+.color_orange{
+    color: #f22e00;
+    
+}
+
+.color_gray{
+    color: #6C6C6C;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    /* height: 50px; */
+    background-color: #f5f5f5;
+}
+
+.header .head-container {
+    width: 1200px;
+    height: 40px;
+    /* background-color: green; */
+    margin: 0 auto;
+    /* line-height: 40px; */
+}
+
+.header .left{
+    float: left;
+}
+
+
+.header  a{
+    margin-left: 8px;
+    line-height: 40px;
+    display: inline-block;
+}
+.header .right{
+    width: 500px;
+    float: right;
+}
+
+.split{
+    padding: 8px 0px;
+}
+
+
+.befor-img-common{
+    padding-left: 25px;
+    background-size: 20px 20px !important;
+    background-position: left center !important;
+}
+
+.header .right .car{
+    background: url(imgs/ico2.png) no-repeat;
+   
+}
+
+.header .right .store{
+    background: url(imgs/ico3.png) no-repeat;
+   
+}
+
+.startImg {
+    height: 20px;
+    background: url(imgs/ico1.png) no-repeat;
+    background-size: cover;
+    background-position: 0px 6px;
+    width: 15px;
+    /* border: solid 1px red; */
+    display: inline-block;
+}
