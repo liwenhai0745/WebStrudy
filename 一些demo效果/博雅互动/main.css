@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*版心*/
+.inner_c{
+    width: 1000px;
+    margin: 0 auto; /*让导航条、内容区域等部分的版心在父亲里居中*/
+ }
+
+ul li{
+    float: left;
+}
+.header{
+    background-color: #191d3a;
+}
+
+.header .heder-container{
+    margin: 0px auto;
+    /* border: solid 1px red; */
+    height: 70px;
+}
+
+.header .heder-container .logo{
+    float: left;
+    background: url(http://www.boyaa.com/images/logo.png) no-repeat center center;
+    width: 195px;
+    height: 70px;
+}
+
+.header .heder-container .menu{
+    height: 70px;
+    float: left;
+    width: 800px;
+
+}
+
+.header .heder-container .menu li{
+    height: 70px;
+    border-left: 1px solid #252947;
+    border-right: 1px solid #252947;
+    padding: 0px 10px;
+    margin-right: -1px;
+}
+
+.header .heder-container .menu li a{
+    line-height: 70px;
+    color: #818496;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.header .heder-container .menu li a:hover{
+    color: white;
+}
+
+.header .heder-container .joinus{
+    margin-left: 20px;
+    line-height: 70px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 14px;
+    font-size: 14px;
+    background-color: #3aca7a;
+    border-radius: 3px;
+
+}
+
+.banner{
+    height: 460px;
+    background: url(http://www.boyaa.com/pic/bpt_banneren.jpg) no-repeat center center;
+}
+
+
+.box4{
+    height: 100px;
+    border: solid 1px red;
+}
+
+
+
+
