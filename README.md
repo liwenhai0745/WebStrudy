@@ -9,3 +9,19 @@
     + 示例 background:url(1.jpg) no-repeat 100px 100px fiexd;
 
 
+### css选择器
+ + 后代选择器，用空格隔开
+ + 交集选择器，用.隔开
+ + 并集选择器用：隔开
+ + 伪类选择器
+
+ ### 1.后代选择器，用空格隔开
+ 示例：
+ ~~~
+ <style type="text/css">
+		.div1 p{
+			color:red;
+		}
+</style>
+ ~~~
+
