@@ -17,11 +17,11 @@
 
  ### 1.后代选择器，用空格隔开
  示例：
- ~~~
+```
  <style type="text/css">
 		.div1 p{
 			color:red;
 		}
 </style>
- ~~~
+```
 
