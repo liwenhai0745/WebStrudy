@@ -50,3 +50,14 @@ div+p{
     color:red;
 }
 ```
+
+
+### CSS权重
+|名称|举例|值|
+|---|---|---|
+|!important|行尾加入！important|无穷大|
+|内联样式|style=""|1000|
+|ID|#ID|100|
+|class/属性/伪类|.class、a:link|10|
+|标签/元素/伪元素|div|1|
+

@@ -88,5 +88,16 @@ ul li{
 }
 
 
+.box4 .li{
+    /* float: left;
+    height: 200px; */
+    width: 240px;
+    
+    
+}
+
+.box4 img{
+    width: 200px;
+}
 
 
